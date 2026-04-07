@@ -6,7 +6,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("My App")
-        button = QPushButton("Button")
+        button = QPushButton("Press this button")
         self.setFixedSize(400, 300)
         self.setCentralWidget(button)
 
